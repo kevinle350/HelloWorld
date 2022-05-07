@@ -1,15 +1,21 @@
-# Basic Sample Hardhat Project
+# Hello World!
+*   Deploy a smart contract to display and update a message 
+*   Built a frontend and connect to MetaMask and the deployed contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+#   Contracts
+*   Write smart contract 
+*   Test smart contract
+*   Write deploy script and here have code to save deployed address/useful information into the frontend/src/contracts
+*   Write other scripts to call functions from smart contracts 
+*   Deploy contract
 
-Try running some of the following tasks:
+#   Frontend
+*   Onboarding Button component to connect to MetaMask 
+*   UpdateForm component to allow user to change the displayed message
+*   Add these components to a single page, in this case App.js
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+#   Libraries
+*   hardhat
+*   ethers.js
+*   react.js
+
